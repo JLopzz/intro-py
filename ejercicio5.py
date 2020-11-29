@@ -1,0 +1,5 @@
+print("Calculo de su IMC (Indice de Masa Corporal)")
+estatura = float(raw_input("Ingrese su estatura en Metros: "))
+peso = float(raw_input("Ingrese su peso en Kilogramos: "))
+imc = round(peso / (estatura * estatura), 2)
+print("\nSu IMC es de: " + str(imc))
