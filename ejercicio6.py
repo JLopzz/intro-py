@@ -1,5 +1,0 @@
-capital = float(raw_input("Ingrese la cantidad de dinero a invertir: "))
-interes = float(raw_input("Ingrese el valor de interes anual que el banco pagara: "))
-anhos = int(raw_input("Ingrese la cantidad de anhos que invertira: "))
-total = round(capital * interes * anhos, 2)
-print("\nEl capital total obtenido por la inversion es de $" + str(total) )
